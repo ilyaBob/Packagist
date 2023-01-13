@@ -1,5 +1,5 @@
 {
-   "name": "ilyaBob/testovoePyrobyte",
+   "name": "ilya-bob/testovoe-pyrobyte",
    "description": "Site map generator",
    "require": {
        "php": ">=8.1",
