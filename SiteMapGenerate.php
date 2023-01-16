@@ -9,7 +9,7 @@ class SiteMapGenerate
 
    public function __construct(string $typeFile, array $arrayMap, string $locSave)
    {
-      if (is_string(preg_match('/\A\/[a-zA-Z1-9]/', $locSave) != 0) {
+      if (preg_match('/\A\/[a-zA-Z1-9]/', $locSave) != 0) {
          $this->typeFile = $typeFile;
          $this->arrayMap = $arrayMap;
          $this->locSave = __DIR__ . $locSave;
